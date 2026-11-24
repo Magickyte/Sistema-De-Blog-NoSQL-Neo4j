@@ -37,23 +37,23 @@ CREATE
     (a1:Article {
         article_id: 1,
         title: 'Introducción a Neo4j y Python',
-        art_date: '24/09/2026 19:51',
+        art_date: '23/11/2026 19:51',
         text: 'En este primer artículo aprenderemos cómo conectar Python con bases de datos Neo4j siguiendo las mejores prácticas: modelando entidades como nodos y relaciones mediante consultas Cypher.'
     }),
     (a2:Article {
         article_id: 2,
         title: 'El futuro de las bases de datos',
-        art_date: '24/09/2026 19:51',
+        art_date: '23/11/2026 19:52',
         text: 'La tecnología avanza rápido, pero las bases de datos orientadas a grafos destacan en el entorno moderno gracias a su flexibilidad, rendimiento en relaciones complejas y capacidad de análisis.'
     }),
     (cm1:Comment {
         comment_id: 1,
-        comment_date: '24/09/2026 19:51',
+        comment_date: '23/11/2026 19:53',
         text: '¡Excelente artículo! Justo lo que necesitaba para estructurar correctamente mi proyecto.'
     }),
     (cm2:Comment {
         comment_id: 2,
-        comment_date: '24/09/2026 19:51',
+        comment_date: '23/11/2026 19:54',
         text: 'Muy buena reflexión, Juan. Es importante conocer los fundamentos. ¡Sigue así!'
     }),
     (u1)-[:PUBLISHED]->(a1),

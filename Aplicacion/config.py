@@ -1,0 +1,5 @@
+DB_CONFIG = {
+    "uri": "bolt://127.0.0.1:7687",
+    "user": "neo4j",
+    "password": "contra123"
+}
